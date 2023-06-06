@@ -2,10 +2,9 @@ import React, { Component } from 'react'
 export default class Spinner extends Component {
     render() {
         return (
-            <div className="text-center">
-               <iframe src="https://giphy.com/embed/3oEjI6SIIHBdRxXI40" width="150" height="150" frameBorder="0" className="giphy-embed">
-                // eslint-disable-next-line
-               </iframe>
+            <div className="text-center" style={{backgroundColor:"#292F6D"}}>
+               <img src="./Spinner.gif" width="30" height="30" alt="Loading..." >
+               </img>
             </div>
         )
     }

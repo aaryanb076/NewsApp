@@ -34,7 +34,6 @@ export class News extends Component {
         this.props.setProgress(70);
         this.setState({ articles: parsedData.articles, loading: false, totalResults: parsedData.totalResults, page: 1 });
         this.props.setProgress(100);
-        document.body.style.backgroundColor = "#292F6D";
     }
 
     fetchMoreData = async () => {

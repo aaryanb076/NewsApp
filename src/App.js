@@ -14,6 +14,9 @@ export default class App extends Component {
 state= {
   progress: 0
 }
+componentDidMount(){
+  document.body.style.backgroundColor = "#292F6D";
+}
 
 setProgress = (progress)=> {
 this.setState({progress:progress})
